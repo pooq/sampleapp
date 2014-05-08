@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 gem 'bootstrap-sass','2.0.4.2'
-
+gem 'bcrypt-ruby', '3.0.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -43,10 +43,12 @@ gem 'jquery-rails','2.2.1'
 	 gem 'guard-rspec','1.2.1'
 	 gem 'guard-spork','1.5.1'
 	 gem 'spork','0.9.2'
+	 gem 'annotate','2.6.3'
  end
 
  group :test do
 	 gem 'capybara','1.1.2'
 	 gem 'rb-inotify','0.9.4'
 	 gem 'libnotify','0.8.2'
+	# gem 'annotate','2.6.3'
  end
