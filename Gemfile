@@ -39,8 +39,13 @@ gem 'jquery-rails','2.2.1'
 #
  group :development, :test do
 	 gem 'rspec-rails','2.14.2'
+	 gem 'guard-rspec','1.2.1'
+	 gem 'guard-spork','1.5.1'
+	 gem 'spork','0.9.2'
  end
 
  group :test do
 	 gem 'capybara','1.1.2'
+	 gem 'rb-inotify','0.9.4'
+	 gem 'libnotify','0.8.2'
  end
